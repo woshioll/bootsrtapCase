@@ -1,0 +1,214 @@
+/* 
+author:oll
+date:2018-12-05
+*/
+
+/* ----------注册按钮 http://blog.koalite.com/bbg/------------ */
+.btn-register {
+    color: #FFFFFF;
+    background-color: #0AB4F7;
+    border-color: #FFFFFF;
+}
+
+.btn-register:hover,
+.btn-register:focus,
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+    color: #FFFFFF;
+    background-color: #086DF2;
+    border-color: #FFFFFF;
+}
+
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+    background-image: none;
+}
+
+.btn-register.disabled,
+.btn-register[disabled],
+fieldset[disabled] .btn-register,
+.btn-register.disabled:hover,
+.btn-register[disabled]:hover,
+fieldset[disabled] .btn-register:hover,
+.btn-register.disabled:focus,
+.btn-register[disabled]:focus,
+fieldset[disabled] .btn-register:focus,
+.btn-register.disabled:active,
+.btn-register[disabled]:active,
+fieldset[disabled] .btn-register:active,
+.btn-register.disabled.active,
+.btn-register[disabled].active,
+fieldset[disabled] .btn-register.active {
+    background-color: #0AB4F7;
+    border-color: #FFFFFF;
+}
+
+.btn-register .badge {
+    color: #0AB4F7;
+    background-color: #FFFFFF;
+}
+/* ----------图片居中控制公共样式----------- */
+
+#lk-about{}
+#lk-about>img,#lk-lesson>img,#lk-link>img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+/* -----------头部------------ */
+
+#header .top-bar {
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #e0e0e0;
+}
+
+/* #header .top-bar .top-bar-1 { height: 40px; background: red;}
+#header .top-bar .top-bar-2 { height: 40px; background: green;}
+#header .top-bar .top-bar-3 { height: 40px; background: blue;}
+#header .top-bar .top-bar-4 { height: 40px; background: yellow;} */
+
+#header .top-bar .row>div+div {
+    border-left: 1px solid #e0e0e0;
+}
+
+#header .top-bar .top-bar-1 a {
+    position: relative;
+}
+
+#header .top-bar .top-bar-1 a img {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -65px;
+    display: none;
+    z-index: 1999;
+}
+
+#header .top-bar .top-bar-1 a:hover img {
+    display: block;
+}
+
+/* ----------导航开始---------- */
+#header .nav-lk {
+    background: #fff;
+    margin-bottom: 0;
+}
+#header .nav-lk .container .navbar-header a {
+    height: 70px;
+    padding: 10px 15px;
+}
+#header .nav-lk .container ul li a {
+    line-height: 40px;
+    background: transparent;
+}
+#header .nav-lk .container ul li.active a,
+#header .nav-lk .container ul li a:hover {
+    border-bottom: 2px solid #0AB4F7;
+}
+/* ----------/导航开始---------- */
+/* -----------/头部------------ */
+/* -----------轮播------------ */
+#s1 .item{
+    background: no-repeat center center;
+    background-size: cover;
+}
+@media screen and (min-width:640px){
+    #s1 .item{
+        height: 410px;
+    }
+}
+/* -----------/轮播------------ */
+/* -----------关于我们------------ */
+#lk-about .container .row p{
+    line-height: 30px;
+}
+/* --------明星产品---------- */
+#lk-product{
+    background: #f0f0f0;
+    padding: 30px 0;
+}
+/* 标签页插件 */
+#lk-product .nav li a{
+    font-size: 18px;
+    color: #999;
+}
+#lk-product .nav li.active a{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #f00;
+    color: #000;
+}
+#lk-product .tab-content{
+    padding-top: 20px;
+}
+#pd-one-left{
+    padding-top: 40px;
+}
+#pd-one-1{margin: 15px 0;}
+#pd-one-1 .media-body{
+    padding-top: 100px;
+}
+#pd-one-2{background: none; margin-top: 20px; font-size: 18px;}
+#pd-one-4{margin: 15px 0;}
+#pd-one-4 button:nth-of-type(1){
+    margin-right: 20px;
+}
+#two h2{
+    margin-top: 120px;
+}
+#two p{
+    margin-top: 15px;
+}
+/* --------/明星产品---------- */
+
+/* --------热门课程---------- */
+#lk-lesson{}
+#lk-lesson .media .media-left{width: 20%;}
+#lk-lesson .media .media-body{width: 60%; vertical-align: middle;}
+#lk-lesson .media .media-right{width: 20%;font-size: 16px;vertical-align: middle;}
+#lk-lesson .container .row>div{
+    padding: 20px 10px;
+}
+
+/* --------/热门课程---------- */
+/* --------友情连接---------- */
+#li-link{
+    padding: 20px 0;
+}
+#lk-link ul li{
+    padding: 20px 30px;
+}
+/* --------/友情连接---------- */
+/* --------footer---------- */
+#footer{
+    height: 200px;
+    padding-top: 20px;
+    background: url(../img/ft_bg.png) no-repeat;
+}
+#foot1,#foot2{
+    height: 160px;
+    border-right: 1px solid #ccc;
+}
+#foot1{
+    padding-top: 20px;
+}
+#foot1 li a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+}
+#foot2{
+    padding-top: 40px;
+    color: #fff;
+}
+#foot3  {
+    padding-top: 20px;
+    padding-left: 30px;
+    color: #fff;
+}
+/* --------/footer---------- */
+
+/* -----------/关于我们------------ */
